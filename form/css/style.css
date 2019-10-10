@@ -1,0 +1,204 @@
+.top_bar{
+    background:#D6142C;
+    padding: 5px 0;
+}
+.social_icon{
+    margin: 5px;
+}
+.contact_info{color: #fff; font-size: 16px;}
+.my_menu{
+    margin-top:20px;
+}
+.my_menu .navbar-default{
+    background: none;
+    border: none;
+}
+.my_menu .navbar-nav .active a{background: #D6142C;color: #fff;}
+.my_menu .navbar-nav li a:hover{background: #D6142C;color: #fff;}
+.below-pic{margin-top: 20px;}
+.our-items{
+    background: radial-gradient(circle,white,white);padding: 25px 0;
+}
+.our-items h1{color: #EF004A;}
+.our-items .top_margin{margin-top: 25px;}
+@media(max-width:600px){
+    .our-items [class*="col-"]{margin-bottom:25px;}
+}
+.container-float .developer-side{
+    background:"#1C468D";
+}
+.footer{
+    background: #333333;
+    padding: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.caption-slider{
+			color: white;
+			background-color: rgba(0,0,0,0.5);
+			border-radius: 20px;
+			font-family: cursive;
+		}
+		.slide-contact{
+			background-color: red;
+			color: white;
+			border-radius: 5px;
+		}
+		.about-text{
+			color:black;
+			padding: 35px;
+		}
+		h1{
+			color: #F40061;
+		}
+		h3{
+			color: #F40061;
+		}
+	
+		.img-responsive-value{
+			width: 90px;
+			height: 100px;
+			border-radius: 50%;
+			border: 3px solid #FFA500;
+			box-sizing: border-box;
+			
+		}
+		.visit{
+			background-color: #F40061;
+			padding: 50px;
+		}
+		.visit-button{
+			border: 1px solid black;
+			background-color: white;
+			font-size: 17px;
+			border-radius: 7px;
+			width: 180px;
+			height: 50px;
+			box-sizing: border-box;
+		}
+		.visit-button:hover{
+			background-color: black;
+			color: white;
+			border: 1px solid white;
+			box-sizing: border-box;
+			border-radius: 7px;
+		}
+		#img-radius{
+			border-radius: 0px 150px 150px 0px;
+			border: 1px solid red;
+			margin-left: -16px;
+		}
+		#slider{
+			background-color: #FD0156;
+			margin-top: 50px;
+			height: 150px;
+			width: 360px;
+			border-radius: 15px;
+			color: white;
+			text-align: center;
+		}
+		
+		
+		.btn-style{
+			width: 180px;
+			height: 45px;
+			border: 2px solid #F40061;
+			box-sizing: border-box;
+			border-radius: 20px;
+			background-color: white;
+			color: black;
+			margin: 40px;
+			font-size: 15px;
+			 box-shadow: 10px 10px 5px #FFA500;
+			
+		}
+		.btn-style:hover{
+			width: 180px;
+			height: 45px;
+			border: 2px solid #000;
+			box-sizing: border-box;
+			border-radius: 20px;
+			background-color: #F1C40F;
+			color: #fff;
+			margin: 40px;
+			font-size: 15px;
+			 box-shadow: 10px 10px 5px #FFA500;
+			
+		}
+		.img-sc{
+			width: 270px;
+			height: 188px;
+			position: relative;
+		}
+		.img-style{
+			width: 255px;
+			height: 192px;
+		}
+		
+		.text-bg-sc{
+			background-color: rgba(241,196,15,0.7);
+			text-align: center;
+			border-radius: 0px 0px 5px 5px;
+			height: 55px;
+			width: 200px;
+			color:black; 
+			position: inherit;
+			margin-top: -25px;
+		}
+		.parallax {
+  /* The image used */
+  background-image: url("images/slider/1%20(2).jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+		.parallax-opacity{
+			background-color: rgba(0,0,0,0.5);
+			width: 100%;
+			height: auto;
+		}
+		.services{
+			width: 200px;
+			height: 200px;
+			border: 10px solid #FFA500;
+			border-radius: 50%;
+			margin: 30px;
+			box-sizing: border-box;
+			padding: 50px;
+		}
+		.services:hover{
+			width: 200px;
+			height: 200px;
+			border: 10px solid #F40061;
+			border-radius: 50%;
+			margin: 30px;
+			box-sizing: border-box;
+			padding: 50px;
+			background-color: black;
+		}
+		.serv-center{
+			margin-left: 60px;
+		}
+		.our-award{
+			background-color: silver;
+			width: 100%;
+			
+		}
+		.footer-brand{
+			width: 190px;
+			border-radius: 10px;
+			box-sizing: border-box;
+		}
